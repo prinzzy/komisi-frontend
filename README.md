@@ -46,7 +46,7 @@ npm install
 
 Buat database baru di PostgreSQL dan konfigurasi koneksi di backend. Pastikan Anda sudah menambahkan konfigurasi database di file .env di folder root proyek Anda.
 
-import database ini terlebih dahulu:
+import database komisi yang telah tersedia terlebih dahulu
 
 Contoh file .env untuk Express.js:
 
@@ -79,4 +79,4 @@ Frontend akan berjalan di http://localhost:3000.
 Buka browser dan akses aplikasi di http://localhost:3000 untuk melihat frontend dan http://localhost:5500 untuk API backend.
 
 ### 8. Postman Collection
-
+Import Postmant Collection untuk uji coba api

@@ -71,12 +71,15 @@ Backend akan berjalan di http://localhost:5500.
 ### Jalankan Frontend (Next.js)
 Setelah backend berjalan, buka terminal baru di folder yang sama dan jalankan perintah berikut untuk menjalankan aplikasi Next.js:
 
-
+```bash
 npm run dev
 Frontend akan berjalan di http://localhost:3000.
+```
 
 ### 7. Akses Aplikasi
+```bash
 Buka browser dan akses aplikasi di http://localhost:3000 untuk melihat frontend dan http://localhost:5500 untuk API backend.
+```
 
 ### 8. Postman Collection
 Import Postmant Collection untuk uji coba api

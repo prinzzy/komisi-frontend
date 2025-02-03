@@ -46,7 +46,7 @@ npm install
 
 Buat database baru di PostgreSQL dan konfigurasi koneksi di backend. Pastikan Anda sudah menambahkan konfigurasi database di file .env di folder root proyek Anda.
 
-import database komisi yang telah tersedia terlebih dahulu
+import database sales_db.sql yang telah tersedia terlebih dahulu menggunakan PgAdmin
 
 Contoh file .env untuk Express.js:
 
@@ -56,8 +56,8 @@ DB_USER=your-db-user
 DB_PASSWORD=your-db-password
 DB_NAME=your-db-name
 
-
 ### 5. Jalankan Backend (Express.js)
+
 Setelah konfigurasi selesai, jalankan server Express.js dengan perintah berikut:
 
 ```bash
@@ -69,6 +69,7 @@ Backend akan berjalan di http://localhost:5500.
 ```
 
 ### Jalankan Frontend (Next.js)
+
 Setelah backend berjalan, buka terminal baru di folder yang sama dan jalankan perintah berikut untuk menjalankan aplikasi Next.js:
 
 ```bash
@@ -77,9 +78,11 @@ Frontend akan berjalan di http://localhost:3000.
 ```
 
 ### 7. Akses Aplikasi
+
 ```bash
 Buka browser dan akses aplikasi di http://localhost:3000 untuk melihat frontend dan http://localhost:5500 untuk API backend.
 ```
 
 ### 8. Postman Collection
+
 Import Postmant Collection untuk uji coba api
